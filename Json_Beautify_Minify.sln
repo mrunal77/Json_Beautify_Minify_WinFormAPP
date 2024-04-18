@@ -7,6 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json_Beautify_Minify", "Jso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-Beautifier-WPF", "JSON-Beautifier-WPF\JSON-Beautifier-WPF.csproj", "{B097629E-480C-42B0-AFE8-3782602B6DB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF52C29A-19FD-4DF2-BA96-5EA61E13077C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{0A6F7184-73FD-49A3-B60F-3EE1F75527FE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Image1.png = ..\..\..\..\Desktop\Image1.png
+		..\..\..\..\Desktop\Image2.png = ..\..\..\..\Desktop\Image2.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +35,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A6F7184-73FD-49A3-B60F-3EE1F75527FE} = {BF52C29A-19FD-4DF2-BA96-5EA61E13077C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {202077AE-20DC-43A5-8F0D-FB177C82EBD0}
